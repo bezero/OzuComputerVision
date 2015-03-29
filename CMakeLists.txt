@@ -42,7 +42,7 @@ elseif("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
     SET(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -std=c++11 -O2 -g -finline-functions -m64 -mtune=native ${FLAGS_VISIBILITY}")
 endif()
 
-set( NAME_SRC particle_filter.cpp particle_filter.h)
+set( NAME_SRC modules/particle_filter.cpp modules/particle_filter.h)
 
 find_package(OpenCV REQUIRED core imgproc highgui imgcodecs)
 
