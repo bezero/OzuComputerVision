@@ -1,1 +1,5 @@
 Put media files related to your executables in this folder.
+
+Trictrac media database is downloaded from the following URL :
+http://www.multitel.be/trictrac/?mod=3 
+The image files tested by particle filter are sampled from  Scenario 1 Camera 4 Fov in Degrees 15
